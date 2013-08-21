@@ -8,4 +8,8 @@ public class ProductDetails {
 	public static String sayBye(){
 		return "Bye.. Have a nice day.. :-)";
 	}
+	
+	public static String sayBye(final String name){
+		return "Bye.. "+name+" Have a nice day.. :-)";
+	}
 }
