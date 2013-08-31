@@ -5,4 +5,7 @@ public class ProductEntity {
 		String idValue = String.valueOf(Math.random());
 		return idValue.substring(3);
 	}
+	public static String generateProductKey() {
+		return "Vel-"+generateProductID();
+	}
 }
